@@ -2,7 +2,9 @@
 benzyne is a lightweight data-hiding library written in pure PHP, intended for hiding data on any Windows machine.
 
 # Installation
-Simply clone this repository by running the command in your git CLI ```git clone  https://github.com/FezFamiliar/benzyne``` or download the entire project.
+Simply clone this repository by running the command in your git CLI:
+
+```git clone  https://github.com/FezFamiliar/benzyne``` or download the entire project.
 
 The techniques found in this library only work on  **windows machines**.
 
