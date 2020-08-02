@@ -107,7 +107,11 @@ To reveal your secret, rename the image to **.zip** and open it with winRAR or a
 
 # Implementation
 
-Most of the functions are working with files in binary mode, looking up values tables, generating random filenames with extensions, matching file signatures with file extensions and encrypting.
+Most of the functions are working with files in binary mode, looking up values in tables, generating random filenames with extensions, matching file signatures with file extensions and encrypting.
+
+# Contributing 
+
+Any contribution must implement a technique from the aformentioned book, improve an existing one or fix potential bugs.
 
 # Contact
 For any recommendations and/or improvements, potential bug fixing please contact me at fezfamiliar@yahoo.com or feel free to submit a pull request.
