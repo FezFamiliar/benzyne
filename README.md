@@ -36,7 +36,7 @@ $shift = new SimpleHide();
 Step 2. Call the desired methods
 
 ```
-$secret = Transfer 10.000 to this account: hdyej2337jemcmy
+$secret = 'Transfer 10.000 to this account: hdyej2337jemcmy';
 $shift->_rich_text($file_path_to_existing_rtf_file, $secret)
 
 $file_name = 'bank_credentials.txt';
