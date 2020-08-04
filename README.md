@@ -53,7 +53,8 @@ Bitshifting is the act of taking the bytes of a file, reversing all of them and 
 
 The way characters are represented in computers is with **character encodings**, every letter corresponds a unique byte.
 
-As you know a ```byte``` is made up of 8 bits, where each bit is ether a ```1``` or a ```0```. That means that our values have a range from ```00000000``` to ```11111111```, hence we have ```2<sup>8</sup>=256``` possible values.
+As you know a ```byte``` is made up of 8 bits, where each bit is ether a ```1``` or a ```0```. That means that our values have a range from ```00000000``` to ```11111111```, hence we have ```2^8=256``` possible values. In order to handle all the values, benzyne implements  ASCII as well as extended-ASCII lookup tables.
+
 For example, let's say we have a ```.txt``` file in which you have the following ASCII text: **meet me at 12 o'clock by the riverside**.
 
 Conversly, by calling the benzyne function ```convert_to_binary``` you can produce the binary representation of the above ASCII: (benzyne supports extended ASCII as-well):
