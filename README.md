@@ -51,7 +51,7 @@ $encrypted = $shift->_bit_shift($existing_and_open_file_pointer, $file_name, $se
 
 Bitshifting is the act of taking the bytes of a file, reversing all of them and converting the end result into extended ASCII.
 
-The way characters are represented in computers is with **character encodings**, every letter corresponds a unique byte.
+The way characters are represented in computers is via **character encodings**, every letter corresponds to a unique byte.
 
 As you know a ```byte``` is made up of 8 bits, where each bit is ether a ```1``` or a ```0```. This means that our values have a range from ```00000000``` to ```11111111```, hence we have ```2^8=256``` possible values. In order to handle all the values, benzyne implements  ASCII as well as extended-ASCII lookup tables.
 
