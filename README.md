@@ -95,7 +95,7 @@ File extensions are used by the operating system to determine what program to us
 
 For example, if you have a ```.docx``` and you rename it to something like ```pid3232.dll``` and place it inside the System32 directory under the C: drive, where alot of operating system files are stored, like **.DLL**, **.EXE**, **.SYS**, also windows by default changes the icon and default associated program used to open the file according to its new extension, chances that this file will be discovered by someone is slim to none.
 
-The only way to know for sure that a file has been renamed is to check the first couple of bytes from the file header a.k.a [**Magic Bytes**](https://blog.netspi.com/magic-bytes-identifying-common-file-formats-at-a-glance/) and compare it to the **real** bytes. Every file extension has their [**File signature**](https://www.filesignatures.net/), for exmaple **.DLL** has the ASCII value **MZ** as their file signature.
+The only way to know for sure that a file has been renamed is to check the first couple of bytes from the file header a.k.a [**Magic Bytes**](https://blog.netspi.com/magic-bytes-identifying-common-file-formats-at-a-glance/) and compare it to the file signature. Every file extension has their [**File signature**](https://www.filesignatures.net/), for exmaple **.DLL** has the ASCII value **MZ** as their file signature.
 
 Benzyne provides you a helper function called ```match_file_extension_with_signature``` which tells you if a file has been renamed or not.
 
