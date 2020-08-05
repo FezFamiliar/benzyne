@@ -13,7 +13,7 @@ All of the techniques presented here are inspired from the book [Data Hiding Tec
 
 The book presents cryptographic, steganographic, forensic/anti-forensic ways to obscure, hide, and make data invisible even for the most computer-savvy people.
 
-This library aims to implement **as many** techniques presented in the book as possible, in PHP.
+This library aims to implement **as many** techniques presented in the book as possible, in [PHP](https://www.php.net/).
 
 # Supported Techniques
 
