@@ -57,7 +57,7 @@ As you know a ```byte``` is made up of 8 bits, where each bit is ether a ```1```
 
 For example, let's say we have a ```.txt``` file in which you have the following ASCII text: **meet me at 12 o'clock by the riverside**.
 
-By calling the benzyne function ```convert_to_binary``` you can produce the binary representation of the above ASCII: (benzyne supports extended ASCII as-well):
+By calling the benzyne function ```convert_to_binary``` you can produce the binary representation of the above ASCII:
 ```
 0110110101100101011001010111010000001001011011010110010100001001011000010111010000001001001100010011001000001001011011110010011101100011011011000110111101100011011010110000100101100010011110010000100101110100011010000110010100001001011100100110100101110110011001010111001001110011011010010110010001100101
 ```
