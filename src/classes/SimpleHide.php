@@ -721,7 +721,7 @@ class SimpleHide implements ISimpleHide
     public function _hide_all($files)
     {
         $n = count($files);
-        for($i = 0;$i < $n;++$i)
+        for($i = 0; $i < $n; ++$i)
         {
             system('attrib +H ' . escapeshellarg($files[$i]));
         }
@@ -792,13 +792,13 @@ class SimpleHide implements ISimpleHide
             print_r($result);
             echo '</pre>';
 
-            for($i = 0;$i < count($result);++$i)
+            for($i = 0; $i < count($result); ++$i)
             {
                 echo $result[$i] . ' ';
             }
         }
 
-        return implode('',$result); 
+        return implode('', $result); 
     }
 
     public function convert_from_binary($binary, $debug = false)
@@ -814,7 +814,7 @@ class SimpleHide implements ISimpleHide
             echo '</pre>';
         }
 
-        for($i = 0;$i < $n;++$i)
+        for($i = 0; $i < $n; ++$i)
         {   
             $result .= self::ASCII_TABLE[$bin[$i]];
         }
