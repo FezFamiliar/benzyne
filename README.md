@@ -12,7 +12,9 @@ The techniques found in this library only work on  **windows machines**.
 
 You can also build the project with docker via ```docker build -t <your-image-name> .``` and spinning a container with a volume attached with ```docker container run -d -p 80:80  -v <full-path-to-source-folder>:/var/www/html/benzyne <your-image-name>```
 
-If you wish to bash into the container you can use ```winpty docker exec -it <container-hash> bash```. If you're not using git bash just delete the ```winpty```.
+If you wish to bash into the container you can use ```winpty docker exec -it <container-hash> bash```. If you're not using git bash just delete the ```winpty```. 
+
+After this accessing ```localhost\benzyne``` should give you a working project.
 
 # Background
 All of the techniques presented here are inspired from the book [Data Hiding Techniques In Windows OS, A practical approach to investigation and defense by Nihad Ahmad Hassan and Rami Hijazi](https://www.amazon.com/Data-Hiding-Techniques-Windows-Investigation/dp/0128044497).
